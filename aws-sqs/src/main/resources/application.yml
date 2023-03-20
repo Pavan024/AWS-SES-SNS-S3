@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIA4IFFZ7JW3JJPDZLU
+      secret-key: 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
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/842161322605/myqueue
+
+
+server:
+  port: 8083
